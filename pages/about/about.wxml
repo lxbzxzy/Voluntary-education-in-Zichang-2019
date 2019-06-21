@@ -1,0 +1,6 @@
+<view class="container">
+  <image class="about-banner" src="/image/12214.jpg"></image>
+  <text style="font-weight:bold; font-size: 50rpx">清华大学化学系</text>
+  <text style="font-weight:bold; font-size: 60rpx">2019子长支教</text>
+  <text>2019.6.28-7.11</text>
+</view>
