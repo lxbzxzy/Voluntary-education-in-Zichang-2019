@@ -1,0 +1,10 @@
+<view class="total">
+  <view class="coursetitle">支教微课程</view>
+  <view wx:for="{{microcourse}}" class="microcourse">
+    <image class="coverpic" src="{{item.coverpic}}" mode="scaleToFill"></image>
+    <navigator class="introword"  data-index = '{{index}}' bindtap="viewCourse" url='/pages/course/detail/{{item.id}}/detail'>
+      <text style="font-weight:bold; font-size: 40rpx; margin-bottom:20rpx;margin-top:30rpx;color:{{item.color}}">{{item.title}}</text>
+      <text class="introtext">{{item.intro}}</text>
+     </navigator>
+  </view>
+</view>

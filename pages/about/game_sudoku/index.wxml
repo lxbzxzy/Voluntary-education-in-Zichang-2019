@@ -1,0 +1,9 @@
+<view>
+  <view class="coursetitle">数独</view>
+  <view class="total">
+    <view wx:for="{{gamedata}}" class="singleblock" data-index='{{index}}' bindtap='operation' style="background-color:{{item.bkc}}"><text style="color:{{item.color}};font-size:35rpx">{{item.num}}</text></view>
+  </view>
+  <view wx:for="{{array}}" data-index='{{index}}' class="chooseblock" bindtap="fillblank">{{item}}</view>
+  <view class="intro">{{rules}}</view>
+  <button size="mini" type="primary" class="changepattern" bindtap="changepattern">换一道题试试</button>
+</view>

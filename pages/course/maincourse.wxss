@@ -1,0 +1,58 @@
+.microcourse{
+  background-color:rgb(197, 208, 231);
+  display:flex;
+  position:relative;
+  height:210rpx;
+  width:680rpx;
+  border-bottom-width:10rpx;
+  border-bottom-color: white;
+  margin:20rpx 35rpx;
+}
+
+.total{
+  background-color:rgb(226, 214, 188);
+  flex-direction: column;
+  width:100%;
+  position:absolute;
+}
+
+.coursetitle{
+  margin:60rpx 245rpx;
+  font-size:50rpx;
+  border-color:rgb(177, 98, 98);
+  border-style:dotted;
+  font-weight:bold;
+}
+
+.coverpic{
+  height:200rpx;
+  width:200rpx;
+  border:5rpx solid rgb(168, 135, 211);
+  border-radius:3%;
+}
+
+.introword{
+  width:480rpx;
+  height:203rpx;
+  direction: column;
+  margin-left:30rpx;
+  margin-top:10rpx;
+  border-color:rebeccapurple;
+  border-bottom:7rpx;
+  border-bottom-style:solid;
+}
+/*In memory of a BUG here, when width of introword
+was not set the width of the picture changed with the 
+difference of introword*/
+
+.nav-default{
+  color:darkblue;
+}
+.nav-hover{
+  color:darkviolet;
+}
+
+.introtext{
+  font:"等线";
+  font-size:30rpx;
+}

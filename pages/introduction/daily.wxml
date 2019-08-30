@@ -1,0 +1,17 @@
+<view class="container2">
+  <swiper indicator-dots="true"class="swipers">
+    <block wx:for="{{generation}}">
+      <swiper-item>
+        <view class="swipers">
+          <image class="about-banner" src="{{item.pic}}" />
+          <view class="swiper-title">{{item.year}}</view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="bginfo">
+  <view>{{bginfo}}</view>
+  <view>{{passingdown}}</view>
+  <view bindtap="f0" class="bluenav">{{transdailyfirstsight}}</view>
+  </view>
+</view>

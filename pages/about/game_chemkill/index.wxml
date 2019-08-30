@@ -1,0 +1,13 @@
+<view>
+  <text>游戏规则：{{rule}}\n</text>
+  <text>电脑血量{{hp_of_the_computer}}\n</text>
+  <text>玩家血量{{hp_of_the_player}}\n</text>
+  <text>电脑牌数{{num_card_computer}}\n</text>
+  <text>玩家牌数{{num_card_player}}\n</text>
+  <text>{{battleline0}}\n</text>
+  <text>{{battleline1}}\n</text>
+  <text>{{battleline2}}\n</text>
+  <view class="card" wx:for="{{yourcard}}" data-index='{{index}}' bindtap='youuse' wx:key="abbr" style="margin:20rpx;">{{item.name}}</view>
+  <button bindtap="choicedone">出牌</button>
+  <button bindtap="nosendcard">不出牌</button>
+</view>

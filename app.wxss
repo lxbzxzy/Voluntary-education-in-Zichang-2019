@@ -1,0 +1,13 @@
+.container{
+  background: rgb(243, 229, 239);
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info{
+  font-weight:bold;
+  font-size:30px;
+}

@@ -1,0 +1,34 @@
+page{
+  background-color:burlywood;
+}
+
+.coursetitle{
+  margin:60rpx 295rpx;
+  font-size:50rpx;
+  border-color:rgb(177, 98, 98);
+  border-style:dotted;
+  font-weight:bold;
+}
+
+.intro {
+  margin: 30px;
+  left:50rpx;
+  right:50rpx;
+}
+
+.totalgame{
+  margin-left:60rpx;
+}
+
+.blockitem{
+  width:50rpx;
+  height:50rpx;
+  margin:30rpx;
+  display:inline-block;
+}
+
+.changepattern{
+  position:fixed;
+  top:900rpx;
+  right:50rpx;
+}

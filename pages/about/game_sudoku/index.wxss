@@ -1,0 +1,47 @@
+page{
+  background-color: burlywood;
+}
+
+.coursetitle{
+  margin:35rpx 320rpx;
+  font-size:50rpx;
+  border-color:rgb(177, 98, 98);
+  border-style:dotted;
+  font-weight:bold;
+}
+
+.singleblock{
+  height:75rpx;
+  width:75rpx;
+  display:inline-block;
+  text-align: center;
+  line-height: 75rpx;
+  border:1rpx solid black;
+  font-weight:bold;
+}
+
+.chooseblock{
+  background-color:rgba(151, 192, 211, 0.7);
+  height:68rpx;
+  width:68rpx;
+  margin:3rpx;
+  display:inline-block;
+  text-align: center;
+  line-height: 75rpx;
+  border:1rpx solid black;
+}
+
+.total{
+  margin:18rpx;
+}
+
+.intro {
+  margin:10rpx 30px;
+  left:50rpx;
+  right:50rpx;
+}
+
+.changepattern{
+  position:relative;
+  left:450rpx;
+}

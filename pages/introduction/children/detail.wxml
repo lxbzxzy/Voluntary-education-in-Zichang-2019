@@ -1,0 +1,10 @@
+<view class="total">
+  <view class="title">我们与孩子</view>
+  <view wx:for="{{scenery}}" class="scenery">
+    <image class="coverpic" src="{{item.pic}}" mode="scaleToFill"></image>
+    <view class="introword">
+      <text style="font-weight:bold; font-size: 40rpx; margin-bottom:20rpx;margin-top:20rpx" >{{item.title}}</text>
+      <text class="introtext">{{item.intro}}</text>
+     </view>
+  </view>
+</view>

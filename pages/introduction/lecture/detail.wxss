@@ -1,0 +1,55 @@
+page{
+  height:100%;
+  background-image:url('https://mmbiz.qpic.cn/mmbiz_png/bz1d0u9o51XeUc9vqyf2an6uRZgYUqTVTib9A5fXEKOAQxCK39c6pjUMyLSln0C5rPIAlngtibibRCiaDMouxYpr5A/0?wx_fmt=png');
+  background-size:100% 100%;
+  background-position:fixed;
+}
+
+.scenery{
+  background-color:rgba(197, 208, 231,0.7);
+  display:flex;
+  position:relative;
+  height:350rpx;
+  width:680rpx;
+  border-bottom-width:10rpx;
+  border-bottom-color: white;
+  margin:30rpx 35rpx;
+}
+
+.total{
+  flex-direction: column;
+  width:100%;
+  position:absolute;
+}
+
+.title{
+  margin:60rpx 270rpx;
+  font-size:50rpx;
+  border-color:rgb(172, 120, 120);
+  border-style:dotted;
+  background-color:rgba(255,255,255,0.5);
+  font-weight:bold;
+}
+
+.coverpic{
+  height:340rpx;
+  width:340rpx;
+  border:5rpx solid rgb(155, 103, 148);
+  border-radius:3%;
+}
+
+.introword{
+  width:330rpx;
+  height:363rpx;
+  direction: column;
+  margin-left:10rpx;
+}
+/*In memory of a BUG here, when width of introword
+was not set the width of the picture changed with the 
+difference of introword*/
+
+.introtext{
+  font:"等线";
+  font-size:25rpx;
+  width:320rpx;
+}

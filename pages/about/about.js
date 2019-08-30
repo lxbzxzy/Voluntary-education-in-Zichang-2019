@@ -1,1 +1,11 @@
-Page({})
+Page({
+  onShareAppMessage:function(){
+    return{
+      title:'2019子长支教',
+      path:'/pages/about/about'
+    }
+  },
+  data:{
+    logo:"https://mmbiz.qpic.cn/mmbiz_jpg/bz1d0u9o51X7mjJKfTibXdEwiaiaIfNjCKiaQ8jctw0KElc5NX7wAP26qwz9bkzibREwnpv9botbRHX6Q596SuB4I5g/0?wx_fmt=jpeg"
+  }
+})

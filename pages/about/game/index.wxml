@@ -1,0 +1,10 @@
+<view class="total">
+  <view class="title">益智游戏</view>
+  <view wx:for="{{scenery}}" class="scenery">
+    <image class="coverpic" src="{{item.pic}}" mode="scaleToFill"></image>
+    <navigator class="introword"  data-index = '{{index}}' bindtap="viewCourse" url='/pages/about/{{item.name}}/index'>
+      <text style="font-weight:bold; font-size: 50rpx; margin-bottom:20rpx;margin-top:20rpx;color:darkblue" >{{item.title}}</text>
+      <text class="introtext">{{item.intro}}</text>
+     </navigator>
+  </view>
+</view>

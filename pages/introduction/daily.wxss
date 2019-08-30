@@ -1,0 +1,52 @@
+page{
+  height:100%;
+  background-image:url('https://mmbiz.qpic.cn/mmbiz_png/bz1d0u9o51Uj1CMuLGQtGIz3gZYM6YlLeY1rbWkgXaI9YqA9vw6YhR21Lt4EV0PBK2EcWSalZwDHowpMb8MmpA/0?wx_fmt=png');
+  background-size:100% 100%;
+  background-position:fixed;
+}
+
+.container2{
+  height:100vh;
+}
+
+.about-banner{
+  width:650rpx;
+  height:400rpx;
+}
+
+.nav-default{
+  color:darkblue;
+}
+.nav-hover{
+  color:darkviolet;
+}
+
+.bginfo{
+  font-weight:light; 
+  font-size:30rpx; 
+  text-indent:2em; 
+  margin-top:20rpx;
+  margin-left:50rpx;
+  margin-right:50rpx;
+  background-color:rgba(255,255,255,0.7);
+}
+
+.swipers{
+  margin-top:20rpx;
+  margin-left:50rpx;
+  right:50rpx;
+  width:600rpx;
+  height:500rpx;
+}
+
+.swiper-title{
+  font-weight:bold;
+}
+
+.bluenav{
+  color:darkblue;
+  font-weight:bold;
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+  font-size:35rpx;
+}

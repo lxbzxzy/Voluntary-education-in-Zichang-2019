@@ -4,15 +4,23 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.8.0",
 	"appid": "wxc5c805a8a5d6719b",
 	"projectname": "miniprogram-test-1",
 	"debugOptions": {
@@ -30,13 +38,46 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/introduction/daily",
+					"pathName": "pages/introduction/daily",
+					"query": "",
+					"scene": 1011
+				},
+				{
+					"id": -1,
+					"name": "pages/about/game_painter/index",
+					"pathName": "pages/about/game_painter/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/about/game_sudoku/index",
+					"pathName": "pages/about/game_sudoku/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/about/game_chemkill/index",
+					"pathName": "pages/about/game_chemkill/index",
+					"query": "",
+					"scene": null
+				}
+			]
 		}
 	}
 }

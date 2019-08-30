@@ -1,0 +1,16 @@
+<view class="container2">
+  <view class="coursetitle">微课程详情</view>
+  <view class="microcourse">
+    <image class="coverpic" src="{{coverpic}}" mode="scaleToFill"></image>
+    <view class="introword">
+      <text style="font-weight:bold; font-size: 40rpx; margin-bottom:20rpx;margin-top:20rpx">{{title}}</text>
+      <text class="introtext">{{intro}}</text>
+    </view>
+  </view>
+  <view class="detail">
+    <view class="detailintro">{{detail}}</view>
+    <view wx:for="{{detailpic}}" class="multipic">
+    <image class="detailpic" src="{{item}}" mode="scaleToFill"></image>
+    </view>
+  </view>
+</view>

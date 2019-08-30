@@ -1,20 +1,27 @@
-.info{
-  font-weight:bold;
-  font-size:30px;
+.about-banner{
+  width: 375rpx;
+  height: 375rpx;
+  border-radius:100%;
+}
+
+.nav-default{
+  color:darkblue;
+}
+.nav-hover{
+  color:darkviolet;
 }
 
 .container{
-  background-color: #eee;
-  height: 100vh;
+  background-color: rgb(243, 219, 237);
 
-  display: flex;
+  display: flow;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.about-banner{
-  width: 375rpx;
-  height: 375rpx;
-  border-radius: 50%;
+.tip{
+  font-size:30rpx;
+  color:darksalmon;
+  font-style:italic;
 }

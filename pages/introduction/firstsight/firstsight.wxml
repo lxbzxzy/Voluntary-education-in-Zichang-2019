@@ -1,0 +1,15 @@
+<view class="container">
+  <swiper indicator-dots="true"class="swipers">
+    <block wx:for="{{aspect}}">
+      <swiper-item>
+        <view class="swipers">
+          <image class="swiper-image" src="{{item.pic}}" />
+          <view class="swiper-title" bindtap="{{item.tap}}">{{item.title}}</view>
+          <text class="swiper-text">{{item.text}}</text>
+          <image class="smallpic" src="{{item.pic2}}" />
+          <view class="mainpage" catchtap="f4">返回首页</view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

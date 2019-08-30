@@ -1,3 +1,43 @@
 {
-  "pages":["pages/about/about"]
+  "pages": [
+    "pages/about/about",
+    "pages/introduction/daily",
+    "pages/about/game_painter/index",
+    "pages/about/game_sudoku/index",
+    "pages/about/game/index",
+    "pages/introduction/firstsight/firstsight",
+    "pages/course/maincourse",
+    "pages/course/detail/1/detail","pages/course/detail/2/detail","pages/course/detail/3/detail","pages/course/detail/4/detail","pages/course/detail/5/detail","pages/course/detail/6/detail","pages/course/detail/7/detail","pages/course/detail/8/detail","pages/course/detail/9/detail","pages/course/detail/10/detail","pages/course/detail/11/detail","pages/course/detail/12/detail","pages/course/detail/13/detail","pages/course/detail/14/detail","pages/course/detail/15/detail","pages/course/detail/16/detail","pages/course/detail/17/detail","pages/course/detail/18/detail",
+    "pages/introduction/scenery/detail","pages/introduction/lecture/detail","pages/introduction/children/detail"
+  ],
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00e",
+    "list": [
+      {
+        "pagePath": "pages/about/about",
+        "text": "介绍",
+        "iconPath": "image/intro.jpg",
+        "selectedIconPath": "image/introon.jpg"
+      },
+      {
+        "pagePath": "pages/course/maincourse",
+        "text": "课程",
+        "iconPath": "image/class.jpg",
+        "selectedIconPath": "image/classon.jpg"
+      },
+      {
+        "pagePath": "pages/about/game/index",
+        "text": "益智",
+        "iconPath": "image/game.jpg",
+        "selectedIconPath": "image/gameon.jpg"
+      }
+    ]
+  },
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "2019子长支教"
+  },
+  "sitemapLocation": "sitemap17.json"
 }

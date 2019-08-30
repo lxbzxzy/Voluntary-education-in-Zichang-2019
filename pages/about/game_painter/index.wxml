@@ -1,0 +1,9 @@
+<view >
+  <view class="coursetitle">涂方块</view>
+  <view wx:for="{{gamedata}}" data-index='{{index}}' bindtap="getline" class="totalgame">
+    <view wx:for="{{item}}" data-index='{{index}}' bindtap="operation" style="background-color:{{item}}" class="blockitem"></view>
+  </view>
+  <view class="intro">{{rules}}</view>
+  <view class="intro">你已操作{{times}}次</view>
+  <button size="mini" type="primary" class="changepattern" bindtap="changepattern">改变初始图案</button>
+</view>

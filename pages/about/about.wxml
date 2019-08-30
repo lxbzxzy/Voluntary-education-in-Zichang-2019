@@ -1,6 +1,7 @@
 <view class="container">
-  <image class="about-banner" src="/image/12214.jpg"></image>
+  <image class="about-banner" src="{{logo}}" mode="aspectFill"></image>
   <text style="font-weight:bold; font-size: 50rpx">清华大学化学系</text>
-  <text style="font-weight:bold; font-size: 60rpx">2019子长支教</text>
-  <text>2019.6.28-7.11</text>
+  <navigator url="/pages/introduction/daily" style="font-weight:bold; font-size: 60rpx" navigator class="nav-default" hover-class="nav-hover">2019子长支教</navigator>
+  <text>2019.6.29-7.11</text>
+  <text class="tip">点击蓝色字即可跳转界面</text>
 </view>
